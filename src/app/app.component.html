@@ -1,0 +1,448 @@
+
+<!-- <ul>
+  <li *ngFor="let city of cities">
+    {{city}}
+  </li>
+</ul> -->
+
+<!-- <button type="button" *ngIf="isDisplay">
+  پشتیبانی
+</button> -->
+
+<!-- <span [ngClass]= "isDisplay ? 'Dark' : 'light' ">
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, minus!
+</span> -->
+
+
+<!-- <div [ngSwitch]="bankCode">
+  <span *ngSwitchCase="1">اولین</span>
+  <span *ngSwitchCase="2">دومین</span>
+  <span *ngSwitchCase="3">سومین</span>
+  <span *ngSwitchDefault>چهارمین یا پیش فرض</span>
+</div> -->
+
+
+<!-- <input [(ngModel)] = "myInpute">
+<hr>
+{{myInpute}} -->
+
+<!-- <select [(ngModel)] = "myInpute">
+  <option [ngValue]="1">تهران</option>
+  <option [ngValue]="2">مشهد</option>
+  <option [ngValue]="3">زابل</option>
+</select>
+<hr>
+{{myInpute}}
+
+<input type="radio" value="Male">
+<input type="radio" value="female">
+
+ -->
+
+ <!-- <button class="a" type="button" (click)="AddNumber()">
+  +
+ </button>
+
+
+ <button class="a"  type="button" (click)="MinNumber()">
+  -
+ </button>
+
+ <br>
+
+<h2>
+  {{ result }}
+</h2> -->
+
+<!-- <label>
+  Dell:<input type="checkbox" name="jensyat" (click)="ChangeBrands(1)">
+</label>
+<br>
+<label>
+Hp:<input type="checkbox" name="jensyat" (click)="ChangeBrands(0)">
+</label>
+<br>
+<label>
+  Apple:<input type="checkbox" name="jensyat" (click)="ChangeBrands(-1)">
+</label>
+
+<hr>
+
+<h1 *ngFor="let item of Brands">
+  {{item}}
+</h1>
+ -->
+
+
+<!-- <div>
+  <h6>{{myData.fristName}}</h6>
+  <h6>{{myData.lastName}}</h6>
+    <h6>{{myData.age}}</h6>
+</div>
+
+<hr>
+
+<div>
+  <h6>{{myData2.fristName}}</h6>
+  <h6>{{myData2.lastName}}</h6>
+    <h6>{{myData.age}}</h6>
+</div> -->
+
+<!-- <div class="b">
+
+  <input [(ngModel)]="fName" name="fName" >
+  <input [(ngModel)]="lNmae" name="lName" >
+  <input [(ngModel)]="age" name="age">
+  <button type="button" (click)="addUser()">
+    +
+  </button>
+</div>
+
+<table class="a">
+  <thead>
+    <tr>
+      <th>اسم</th>
+      <th>فامیل</th>
+      <th>سن</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <tr *ngFor="let User of tableRows">
+      <td>{{User.firstName}}</td>
+      <td>{{User.lastName}}</td>
+      <td>{{User.age}}</td>
+    </tr>
+  </tbody>
+</table> -->
+
+<!-- <h1>
+  {{firstName}} {{lastName}}
+</h1>
+
+<h2>
+  {{age  + 2}}
+</h2>
+<h2>
+  {{price * 0.9}} تومان
+</h2> -->
+
+<!-- <ul>
+  <li *ngFor= "let city of cities">
+    {{city}}
+  </li>
+</ul> -->
+
+
+<!-- <button type="button" *ngIf="isDisplay">
+پشتیبانی
+</button> -->
+
+
+
+<!-- <span [ngClass]="isDisplay ? 'dark' : 'light' ">
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, tempora.
+</span> -->
+
+
+
+  <!-- <select class="a">
+    <option [ngSwitch]= "isDisplay" ?  : >
+      show
+    </option>
+    <option>
+      hide
+    </option>
+  </select>
+
+  <div class="show">
+
+  </div>
+
+  <div class="hide">
+
+  </div> -->
+
+
+<!-- <select class="a" >
+
+  <option [ngClass]="{'isDisplay' : true}">
+  show
+  </option>
+  <option [ngClass]="{'isDisplay' : false}">
+    hide
+  </option>
+</select>
+
+<div class="show">
+{{themetype}}
+</div> -->
+
+<!-- <select class="a">
+  <option> show
+    <input (click)="addvariable()">
+  </option>
+
+  <option> hide
+    <input>
+  </option>
+</select>
+
+<div *ngIf="visible">
+  <div class="show"></div>
+
+</div> -->
+
+
+ <!-- <select class="a" [(ngModel)] = "visible">
+  <option>show</option>
+  <option [ngValue]="visible">hide</option>
+</select>
+
+
+<div class="show" *ngIf="visible">
+
+</div> -->
+
+  <!-- <select class="a" [(ngModel)]="visible">
+    <option [ngValue]="false" >
+      show
+    </option>
+
+    <option [ngValue]="true">
+      hide
+    </option>
+  </select>
+
+  <div class="show"[(hidden)]="visible">
+     hello world
+  </div> -->
+
+
+  <!-- <button type="button"   (click)="addNumber()">
+    counter
+  </button>
+<br>
+<h1>
+{{result}}
+</h1> -->
+
+  <!-- <div class="show" *ngIf="visible">
+    <span>
+      hello world
+    </span>
+   </div> -->
+
+   <!-- <ng-container *ngFor="let item of myData">
+    <h1 *ngIf="item >= 2 && item <= 10  ">
+      {{item}}
+    </h1>
+
+   </ng-container> -->
+
+
+   <!-- <ng-container *ngFor="let item of myData">
+    <h1 *ngIf="item <= 10 && item >= 2  ">
+      {{item}}
+    </h1>
+
+   </ng-container> -->
+
+   <!-- <label>
+    hp:<input type="checkbox" name="Brands" (click)="addBrand(1)">
+   </label>
+   <br>
+   <label>
+    dell:<input type="checkbox" name="Brands"  (click)="addBrand(2)">
+   </label>
+   <br>
+   <label>
+    asus:<input type="checkbox" name="Brands"  (click)="addBrand(3)">
+   </label>
+<hr>
+<h1 *ngFor="let item of Brands">
+  {{item}}
+</h1> -->
+
+<!-- <div>
+  <h6>
+    {{myData.firstName}}
+  </h6>
+  <h6>
+    {{myData.lastName}}
+  </h6>
+  <h6>
+    {{myData.age}}
+  </h6>
+</div>
+<hr>
+<div>
+  <h6>
+    {{myData2.firstName}}
+  </h6>
+  <h6>
+    {{myData2.lastName}}
+  </h6>
+  <h6>
+    {{myData2.age}}
+  </h6>
+</div> -->
+
+
+<!-- <input [(ngModel)]="fName">
+<input [(ngModel)]="lName">
+<input [(ngModel)]="age">
+<button type="button" (click)="addUser()">
+  +
+</button>
+
+<table style="width: 100%;">
+  <thead>
+    <tr>
+      <th>نام
+        <button type="button" (click)="sortFirstName()">v</button>
+        <button type="button" (click)="sortFirstNameDc()">^</button>
+      </th>
+      <th>نام خانوادگی</th>
+      <th>سن</th>
+      <th>عملیات</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let user of tableRows">
+      <td>{{user.firstName}}</td>
+      <td>{{user.lastName}}</td>
+      <td>{{user.age}}</td>
+      <td>
+        <button type="button" (click)="sortFirstName()">
+          ویراش
+        </button>
+        <button type="button" (click)="delete(user)">
+          حذف
+        </button>
+      </td>
+    </tr>
+  </tbody>
+</table> -->
+
+
+
+<!-- <p>Lorem, ipsum.</p>
+<p appHighight>Lorem, ipsum.</p>
+<p appHighight>Lorem, ipsum.</p>
+<p appHighight>Lorem, ipsum.</p>
+<p>Lorem, ipsum dolor.</p>
+<p>Lorem, ipsum dolor.</p>
+<p>Lorem, ipsum dolor.</p>
+<p>Lorem, ipsum dolor.</p>
+<p appHighlight>Lorem, ipsum.</p> -->
+
+
+
+<!--
+ <input [(ngModel)]="myId">
+
+ <button (click)="getUserFromBackend()"  type="button">
+   +
+ </button>
+
+
+ <h1>{{backendUser1.userId}}</h1>
+ <h1>{{backendUser1.id}}</h1>
+ <h1>{{backendUser1.title}}</h1>
+ <h1>{{backendUser1.completed}}</h1>
+ -->
+
+
+ <!-- <dl *ngFor="let comment of commentList"  >
+  <dt>
+    {{comment.body}}
+  </dt>
+  <dd>
+    {{comment.postId}}
+  </dd>
+  <dd>
+    {{comment.id}}
+  </dd>
+  <dd>
+    {{comment.email}}
+  </dd>
+  <dd>
+    {{comment.name}}
+  </dd>
+ </dl>
+
+
+      <img *ngFor="let album of myAlbums" src="{{album.thumbnailUrl}}"> -->
+
+
+
+ <!-- <header>
+    <h1>Task Manager</h1>
+  </header>
+    <main>
+        <section class="task-form">
+          <h2>Add New Task</h2>
+          <form>
+            <input type="text" id="task-title" placeholder="Task Title" required>
+            <textarea id="task-desc" placeholder="Task Description"></textarea>
+            <select id="task-priority">
+              <option value="low">Low Priority</option>
+              <option value="medium">Medium Priority</option>
+              <option value="high">High Priority</option>
+            </select>
+            <button type="submit">Add Task</button>
+          </form>
+        </section>
+        <section class="task-list">
+          <h2>Task List</h2>
+          <ul id="tasks">
+
+          </ul>
+        </section>
+    </main>
+      <footer>
+        <p>&copy; 2024 Task Manager App</p>
+      </footer> -->
+
+
+      <app-header>
+        <h1>Task Manager</h1>
+      </app-header>
+      <main>
+        <app-task-form>
+          <section class="task-form">
+            <h2>Add New Task</h2>
+            <form>
+              <input type="text" id="task-title" placeholder="Task Title" required>
+              <textarea id="task-desc" placeholder="Task Description"></textarea>
+              <select id="task-priority">
+                <option value="low">Low Priority</option>
+                <option value="medium">Medium Priority</option>
+                <option value="high">High Priority</option>
+              </select>
+              <button type="submit">Add Task</button>
+            </form>
+          </section>
+        </app-task-form>
+        <app-task-list>
+          <section class="task-list">
+            <h2>Task List</h2>
+            <ul id="tasks">
+              <!-- Tasks will be dynamically rendered here -->
+            </ul>
+          </section>
+        </app-task-list>
+      </main>
+      <footer>
+        <p>&copy; 2024 Task Manager App</p>
+      </footer>
+
+
+
+
+
+
+
+
+<router-outlet > <router-outlet />

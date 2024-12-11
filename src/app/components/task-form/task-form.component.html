@@ -1,0 +1,28 @@
+<!-- <section class="task-form">
+  <h2>Add New Task</h2>
+  <form>
+    <input type="text" placeholder="Task Title" />
+    <textarea rows="3" placeholder="Task Description"></textarea>
+    <select>
+      <option value="">Select Priority</option>
+      <option value="low">Low</option>
+      <option value="medium">Medium</option>
+      <option value="high">High</option>
+    </select>
+    <button type="submit">Add Task</button>
+  </form>
+</section> -->
+
+
+
+<form (ngSubmit)="addTask()">
+  <input type="text" placeholder="Task Title" [(ngModel)]="title" name="title" required />
+  <textarea rows="3" placeholder="Task Description" [(ngModel)]="description" name="description" required></textarea>
+  <select [(ngModel)]="priority" name="priority" required>
+    <option value="low">Low</option>
+    <option value="medium">Medium</option>
+    <option value="high">High</option>
+  </select>
+  <button type="submit">Add Task</button>
+</form>
+
