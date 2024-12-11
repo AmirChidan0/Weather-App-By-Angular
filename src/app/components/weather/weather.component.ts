@@ -17,6 +17,7 @@ export class WeatherComponent {
   city: string = '';
   weatherData: any;
 
+
   constructor(private weatherService: WeatherService) {}
 
   fetchWeather() {

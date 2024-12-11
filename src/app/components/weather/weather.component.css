@@ -27,7 +27,81 @@ button:hover {
   background-color: #0056b3;
 }
 
+
 .weather-details {
-  margin-top: 20px;
-  text-align: left;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  max-width: 350px;
+  margin: 30px auto;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  text-align: center;
+}
+
+
+.weather-details h2 {
+  font-size: 2rem;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+
+.weather-details p {
+  font-size: 1.1rem;
+  margin: 5px 0;
+}
+
+.weather-details:hover {
+  transform: scale(1.03);
+  transition: transform 0.3s ease;
+}
+
+@media (max-width: 400px) {
+  .weather-details {
+    padding: 15px;
+    max-width: 90%;
+  }
+  .weather-details h2 {
+    font-size: 1.5rem;
+  }
+  .weather-details p {
+    font-size: 1rem;
+  }
+}
+
+.weather-app {
+  background-image: url('/src/assets/sunny.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .weather-app {
+    flex-direction: column;
+  }
+
+  .temperature {
+    font-size: 24px;
+  }
 }
